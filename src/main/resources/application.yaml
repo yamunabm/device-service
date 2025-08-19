@@ -1,1 +1,14 @@
-spring.application.name=Device Service
+spring:
+  application:
+    name: Device Service
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  profiles:
+    active: dev
+
+port: 8000
+
