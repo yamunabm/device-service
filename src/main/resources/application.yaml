@@ -1,3 +1,8 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /device-service
+
 spring:
   application:
     name: Device Service
@@ -10,5 +15,5 @@ spring:
   profiles:
     active: dev
 
-port: 8000
+
 
