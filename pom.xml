@@ -19,6 +19,7 @@
         <java.version>21</java.version>
         <lombok.version>1.18.38</lombok.version>
         <postgresql.version>42.7.7</postgresql.version>
+        <openapi.version>2.8.9</openapi.version>
     </properties>
     <dependencies>
         <dependency>
@@ -38,6 +39,11 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${openapi.version}</version>
         </dependency>
 
         <dependency>

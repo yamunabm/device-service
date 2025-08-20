@@ -13,7 +13,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
   profiles:
-    active: dev
-
-
-
+    active: ${SPRING_PROFILES_ACTIVE}

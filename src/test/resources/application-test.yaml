@@ -1,0 +1,10 @@
+
+
+server:
+  port: 0
+
+# Optional logging
+logging:
+  level:
+    root: INFO
+    com.example.device: DEBUG
